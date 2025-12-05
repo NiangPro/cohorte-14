@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+
+<form>
+	<!-- premiere section  -->
+	<fieldset>
+		<legend>Votre identite</legend>
+		<ol  type="1">
+			<li>
+				<label>Nom</label>
+				<input type="text" placeholder="Prenom et nom" required>
+			</li>
+			<li>
+				<label>Email</label>
+				<input type="Email" placeholder="exemple@domaine.com" required>
+			</li>
+
+			<li>
+				<label>Telephone</label>
+				<input type="text" placeholder="par ex :77 654 09 03">
+			</li>
+		</ol>
+
+	</fieldset>	
+	<!-- deuxieme section  -->
+		<fieldset>
+			<legend>Adress de livraison</legend>
+			<ol type="`1">
+				<li> 
+					<label>Adress</label>
+					<textarea rows="8" cols="35"></textarea>
+				</li>
+				<li>
+					<label>Code postal</label>
+					<input type="number">
+
+					<li>
+						<label>Pays</label>
+						<input type="texte">
+					</li>
+				</li>
+			</ol>
+
+		</fieldset>
+
+		<!-- troisieme section  -->
+		<fieldset>
+			<legend>Information CB</legend>
+			<ol>
+				<li>
+					<fieldset>
+						<legend>Type de carte bancaire</legend>
+						<ol>
+							<li>
+								<input type="radio" name="type de carte">
+								Visa 
+							</li>
+							<li>
+								<input type="radio" name="type de carte">
+								AmeEx
+							</li>
+							<li>
+								<input type="radio" name="type de carte">
+								Mastercard
+							</li>
+						</ol>
+					</fieldset>
+				</li>
+				<li>
+					<label>N° de carte</label>
+					<input type="number">
+				</li>
+
+				<li>
+					<label>Code de securite</label>
+					<input type="number">
+				</li>
+				<li>
+					<label>Nom du porteur</label>
+					<input type="text" placeholder="Meme nom que la carte">
+
+				</li>
+			</ol>
+		</fieldset>
+
+		<!-- quatrieme section 			 -->
+		<fieldset>
+			<legend></legend>
+			<button type="submit">J'achete</button>
+		</fieldset>
+</form>
+
+</body>
+</html>

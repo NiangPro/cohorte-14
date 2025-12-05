@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+<form>
+<fieldset style="width: 50%; max-width: 600;">
+	<legend align="center">formulaire d'inscription</legend>
+
+	<label>Prenom</label><br>
+	<input type="text" name="Prenom" minlength="2" placeholder="Veuillez saisir votre prenom" required><br>
+
+	<label>Nom</label><br>
+	<input type="texte" name="nom" maxlength="20" placeholder="Veuillez saisir votre nom" required><br>
+
+	<label>Sexe</label><br>
+	M<input type="radio" name="sexe" required checked>
+	F<input type="radio" name="sexe" required><br>
+
+	<label>Montant d'inscription</label><br>
+	<input type="number" value="25.000" step="500" required><br>
+
+	<button type="submit">Ajouter</button>
+	<button type="reset">Annuler</button>
+</fieldset>
+</form>
+</body>
+</html>
