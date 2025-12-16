@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #titre1 , a, #para2{
+            background: red;
+        }
+
+        div > p{
+            color: yellow;
+        }
+
+        div + h1{
+            color: cyan;
+        }
+
+        input[type="email"], input[type="password"]{
+            width: 500px;
+            outline: none;
+        }
+
+        input[type="submit"]{
+            background: green;
+            color: white;
+             transition: 3s;
+        }
+
+        input[type="submit"]:hover{
+            background: red;
+           
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1 id="titre1">Lorem ipsum dolor sit amet.</h1>
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet commodi sequi possimus quo laboriosam perspiciatis, eos minima, et voluptatum magni omnis ab architecto dolores soluta esse, aliquam labore inventore est?
+        </p>
+        <h1>Lorem ipsum, dolor sit amet consectetur adi</h1>
+    </div>
+    <h1>Lorem ipsum dolor sit amet consectetur adipisicing.</h1>
+    <a href="">Je suis un lien</a>
+    <p id="para2">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit perferendis quas eos illum cupiditate sed sapiente porro sint! Aperiam dolores omnis odit nostrum impedit! Voluptatum cupiditate quo vero voluptas omnis!
+    </p>
+    <h1>Lorem ipsum dolor sit amet.</h1>
+
+    <form action="">
+        <label for="">Email</label>
+        <input type="email"><br>
+        <label for="">Mot de passe</label>
+        <input type="password"><br>
+        <input type="submit" value="Ajouter">
+    </form>
+</body>
+</html>
