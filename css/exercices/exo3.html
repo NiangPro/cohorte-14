@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background: rgb(235, 233, 233);
+        }
+        #cards{
+            width: 1200px;
+            height: 420px;
+            margin: auto;
+            margin-top: 100px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .card{
+            width: 350px;
+            height: 100%;
+            border-radius: 15px;
+            box-shadow: 1px 1px 10px grey;
+            background: white;
+        }
+        .card img{
+            width: 100%;
+            height: 60%;
+            border-radius: 15px 15px 0px 0px;
+        }
+        .card-body{
+            width: 100%;
+            height: 39%;
+            padding: 0px 20px;
+            box-sizing: border-box;
+        }
+
+        h2{
+            color: grey;
+            text-transform: uppercase;
+            font-size: 20px;
+        }
+        h1{
+            font-size: 20px;
+        }
+        .description{
+            color: grey;
+        }
+        p a{
+            text-decoration: none;
+            color: red;
+        }
+
+        #author{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="cards">
+        <div class="card">
+            <img src="https://tse2.mm.bing.net/th/id/OIP.yApCnbwnpTPRcFGklLAhlgAAAA?pid=ImgDet&w=176&h=110&c=7&o=7&rm=3" alt="">
+            <div class="card-body">
+                <h2>Tiger</h2>
+                <h1>Lorem, ipsum dolor.</h1>
+                <p class="description">Lorem ipsum dolor sit amet consectetur.</p>
+                <p>by <a href="">Learning Robo</a></p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://tse2.mm.bing.net/th/id/OIP.Fpsk_pGiC7RSni7jnH0goAAAAA?pid=ImgDet&w=176&h=176&c=7&o=7&rm=3" alt="">
+            <div class="card-body">
+                <h2>Sunset</h2>
+                <h1>Lorem, ipsum dolor.</h1>
+                <p class="description">Lorem ipsum dolor sit amet consectetur.</p>
+                <p>by <a href="">Learning Robo</a></p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://tse1.mm.bing.net/th/id/OIP.WZ01sl2e28delB-AOX5ORwHaEI?pid=ImgDet&w=176&h=98&c=7&o=7&rm=3" alt="">
+            <div class="card-body">
+                <h2>Thunder</h2>
+                <h1>Lorem, ipsum dolor.</h1>
+                <p class="description">Lorem ipsum dolor sit amet consectetur.</p>
+                <p>by <a href="">Learning Robo</a></p>
+            </div>
+        </div>
+    </div>
+    <p id="author">Made with🖤 by <a href="">Learning Robo</a></p>
+</body>
+</html>
