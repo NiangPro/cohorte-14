@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .menu{
+            width: 600px;
+            height: 40px;
+            margin: auto;
+            list-style-type: none;
+            display: flex;
+            /* align-items: center; */
+            padding: 0px;
+        }
+
+        .menu li{
+            width: 150px;
+            height: 100%;
+            line-height: 36px;
+            text-align: center;
+            background: orange;
+            font-size: 18px;
+            position: relative;
+            
+        }
+
+        li:hover{
+            background: rgb(156, 87, 3);
+        }
+
+        li a{
+            text-decoration: none;
+            color: white;
+        }
+
+        .dropdown{
+            list-style-type: none;
+            position: absolute;
+            left: -40px;
+            visibility: hidden;
+            /* display: none; */
+        }
+
+        li:hover .dropdown{
+            visibility: visible;
+            /* display: block; */
+        }
+    </style>
+</head>
+<body>
+    <ul class="menu">
+        <li><a href="">Home</a></li>
+        <li>
+            <a href="">Blog</a>
+            <ul class="dropdown">
+                <li><a href="">Design</a></li>
+                <li><a href="">HTML</a></li>
+                <li><a href="">CSS</a></li>
+                <li><a href="">Javascript</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="">Work</a>
+             <ul class="dropdown">
+                <li><a href="">Design</a></li>
+                <li><a href="">HTML</a></li>
+                <li><a href="">CSS</a></li>
+                <li><a href="">Javascript</a></li>
+            </ul>
+        </li>
+        <li><a href="">About</a></li>
+    </ul>
+</body>
+</html>
