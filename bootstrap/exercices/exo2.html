@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../bootstrap.min.css">
+</head>
+<body>
+    <nav
+        class="navbar navbar-expand-sm navbar-dark" style="background: purple;"
+    >
+        <div class="container">
+            <a class="navbar-brand" href="#">Cohorte<span class="text-warning">14</span></a>
+            <button
+                class="navbar-toggler d-lg-none"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapsibleNavId"
+                aria-controls="collapsibleNavId"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav m-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#" aria-current="page"
+                            >Accueil
+                            <span class="visually-hidden">(current)</span></a
+                        >
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Apropos</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a
+                            class="nav-link dropdown-toggle"
+                            href="#"
+                            id="dropdownId"
+                            data-bs-toggle="dropdown"
+                            aria-haspopup="true"
+                            aria-expanded="false"
+                            >Formations</a
+                        >
+                        <div
+                            class="dropdown-menu"
+                            aria-labelledby="dropdownId"
+                        >
+                            <a class="dropdown-item" href="#"
+                                >Action 1</a
+                            >
+                            <a class="dropdown-item" href="#"
+                                >Action 2</a
+                            >
+                        </div>
+                    </li>
+                </ul>
+                <form class="d-flex my-2 my-lg-0">
+                    <input
+                        class="form-control me-sm-2"
+                        type="text"
+                        placeholder="Rechercher"
+                    />
+                    <button
+                        class="btn btn-warning my-2 my-sm-0"
+                        type="submit"
+                    >
+                        Rechercher
+                    </button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="container mt-3 col-md-8">
+        <div class="card">
+            <div class="card-header">
+                <div class="row">
+                    <h3 class="col-md-8">Liste des apprenants</h3>
+                    
+                    <div class="col-md-4 text-end">
+                        <a href="" class="btn btn-success">Ajouter</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card-body">
+                <table class="table table-bordered table-striped">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Nom</th>
+                            <th>Prenom</th>
+                            <th>Email</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>John</td>
+                            <td>Doe</td>
+                            <td>john.doe@gmail.com</td>
+                            <td>
+                                <a href="" class="btn btn-primary">Modifier</a>
+                                <a href="" class="btn btn-danger">Supprimer</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>John</td>
+                            <td>Doe</td>
+                            <td>john.doe@gmail.com</td>
+                            <td>
+                                <a href="" class="btn btn-primary">Modifier</a>
+                                <a href="" class="btn btn-danger">Supprimer</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>John</td>
+                            <td>Doe</td>
+                            <td>john.doe@gmail.com</td>
+                            <td>
+                                <a href="" class="btn btn-primary">Modifier</a>
+                                <a href="" class="btn btn-danger">Supprimer</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="../bootstrap.bundle.min.js"></script>
+</body>
+</html>
